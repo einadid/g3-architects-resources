@@ -199,6 +199,28 @@ main > section{
   margin: 0%;
 }
 
+/* sponspor */
+.Sponspors-head{
+  max-width: 542px;
+  margin: 50px auto;
+  text-align: center;
+}
+.Sponspors-title{
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #131313;
+  margin-top: 150px;
+}
+
+.sponspors-com{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr )
+}
+
+.sponspors-com img{
+  filter: grayscale() ;
+}
+
 
 
 /* responsive media query */
