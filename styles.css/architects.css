@@ -160,6 +160,44 @@ main > section{
   font-weight: 500;
 }
 
+/* some facts */
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fact{
+  border: #FF900E solid 1px;
+  border-radius: 8px;
+  width: 240px;
+  height: 240px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.fact-title{
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #131313;
+  margin-top: 100px;
+}
+.facts-des{
+  max-width: 540px;
+  color: #727272;
+  margin-bottom: 100px;
+}
+
+.fact-number{
+  font-size: 2.8rem;
+  margin: 0%;
+  color: #424242;
+  font-weight: 600 ;
+}
+.fact-name{
+  font-size: 20px;
+  color: #727272;
+  margin: 0%;
+}
 
 
 
