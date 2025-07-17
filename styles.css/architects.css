@@ -66,7 +66,6 @@ main > section{
 .nav-link{
   text-decoration: none;
   font-weight: 500;
-
 }
 .navbar, .banner{
   max-width: 1440px;
@@ -199,31 +198,36 @@ main > section{
   margin: 0%;
 }
 
+
 /* sponspor */
-.Sponspors-head{
+.Sponsors-head{
   max-width: 542px;
   margin: 50px auto;
   text-align: center;
 }
-.Sponspors-title{
+.Sponsors-title{
   font-size: 2.8rem;
   font-weight: bold;
   color: #131313;
   margin-top: 150px;
 }
 
-.sponspors-com{
+.sponsors-com{
   display: grid;
   grid-template-columns: repeat(5, 1fr )
 }
 
-.sponspors-com img{
+.sponsors-com img{
   filter: grayscale() ;
 }
 
 
 footer{
-  
+  background-color: #FFF4E7;
+  padding: 39px 410px;
+  margin: 130px 240px 216px 240px;
+  text-align: center;
+  border-radius: 8px;
 }
 
 
@@ -231,12 +235,31 @@ footer{
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .navbar, 
-  .nav-link,
   .feature-enjoy,
+  .some-facts,
+  .sponsors,
   .teams{
     flex-direction: column;
   }
-  .team-img-container{
+  .brand{
+    margin-bottom: 0%;
+  }
+  .nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFF4E7;
+    padding-left: 0;
+}
+  .nav-item{
+    background-color: #FF900E; 
+    padding: 8px 5px;
+    border-radius: 4px;
+    margin: 5px  ;
+  }
+  
+  
+
+  .team-img-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .our-features{
@@ -247,17 +270,57 @@ footer{
     gap: 75px;
     margin: 20px  ;
   }
-.feature-archi{
-  width: 100%;
-}
-  
+  .feature-archi{
+    width: 100%;
+  }
   #Experience-logo{
     margin-top: -50px;
     margin-left: 20px;
     padding: 20px 42px;
   }
-
+  .some-facts {
+    padding: 20px;
+    margin-top: -50px;
+  }
+  .fact-container{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+  }
+  .fact{
+    margin-bottom: 35px;
+    align-items: center;
+    text-align: center;
+  }
+  .feature-enjoy-title{
+    font-size: 2rem;
+  }
+  .sponsors{
+    margin-top: -100px;
+  }
+  .sponsors-com{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr );
+  justify-items: center;
 }
+.sponsors-com img{
+  margin-bottom: 40px;
+}
+footer{
+  background-color: #FFF4E7;
+  padding: 20px;
+  margin: 45px;
+  text-align: center;
+}
+#feature-margin{
+  border-left: 5px solid #FF900E;
+  padding: 10px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+}
+
 
 
 
